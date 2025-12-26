@@ -1,0 +1,40 @@
+# ===== 后端 =====
+backend/target/
+backend/*.log
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# ===== 前端 =====
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.log
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# ===== 敏感文件 =====
+*.pem
+*.key
+.env
+.env.local
+.env.*.local
+
+# ===== 日志 =====
+logs/
+*.log
+npm-debug.log*
+
+# ===== 其他 =====
+nul

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where pandoc)",
+      "Bash(where npm)",
+      "Bash(npm install -g md-to-pdf)",
+      "Bash(md-to-pdf \"产品解决方案（客户版）.md\" --config-file nul)",
+      "Bash(dir \"d:\\\\ProjectCode\\\\c-project\\\\docs\\\\*.pdf\")",
+      "Bash(md-to-pdf \"产品解决方案（客户版）.md\")",
+      "Bash(dir /s /b \"d:\\\\ProjectCode\\\\c-project\")"
+    ]
+  }
+}

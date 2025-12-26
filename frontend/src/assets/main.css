@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  height: 100%;
+  width: 100%;
+}
+
+.app-layout {
+  height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  background: #001529;
+}
+
+.app-logo {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.app-content {
+  padding: 24px;
+  background: #f0f2f5;
+  overflow: auto;
+}
+
+.app-sider {
+  background: white;
+}
+
+/* Monaco Editor 容器样式 */
+.monaco-container {
+  width: 100%;
+  height: 400px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+/* 问题列表样式 */
+.problem-item {
+  padding: 8px 12px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+
+.problem-item:hover {
+  background: #f5f5f5;
+}
+
+.problem-error {
+  color: #ff4d4f;
+}
+
+.problem-warning {
+  color: #faad14;
+}
+
+.problem-info {
+  color: #1890ff;
+}
+
+/* 结果表格样式 */
+.result-table {
+  margin-top: 16px;
+}
+
+/* Diff视图样式 */
+.diff-container {
+  display: flex;
+  gap: 16px;
+}
+
+.diff-side {
+  flex: 1;
+}
+
+.diff-added {
+  background: #e6ffed;
+}
+
+.diff-removed {
+  background: #ffeef0;
+}
+
+.diff-modified {
+  background: #fff8e1;
+}
